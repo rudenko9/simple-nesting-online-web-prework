@@ -97,7 +97,8 @@ def changing_alan
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
-          
+                programmer_hash[:alan_kay][:known_for] ="GUI"
+     puts programmer_hash
         },
         :dennis_ritchie => {
           :known_for => "Unix",
